@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project Name</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/vendor/font-awesome.css">
+  <link rel="stylesheet" href="css/vendor/foundation.css">
+  <link rel="stylesheet" href="css/vendor/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <header class="main-header">
+  <img src="images/logo/1.png" alt="" />
+  </header>
+
+  <div class="container">
+
+    <div class="inputForm">
+      <form id="addEntry">
+        <input id="firstName" class="input" type="text" placeholder="First Name"/>
+        <input id="lastName" class="input" type="text" placeholder="Last Name"/>
+        <input id="email" class="input" type="email" placeholder="Email"/>
+        <input id="pNumber" class="input" type="tel" placeholder="Phone Number"/>
+        <input id="twitter" class="input" type="text" placeholder="Twitter"/>
+        <input id="linkedIn" class="input" type="text" placeholder="LinkedIn"/>
+        <button id="editBtn" type="button" class="editBtn">Edit Contact</button>
+        <button id="submitBtn" type="button" class="submitBtn">Add Contact</button>
+      </form>
+    </div>
+
+    <ul id="addressBook"></ul>
+
+  </div>
+
+  <!-- VENDOR -->
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/underscore.js"></script>
+   <script src="js/vendor/backbone.js"></script>
+  <script src="js/vendor/handlebars.js"></script>
+  <!-- TEMPLATES -->
+  <script src="js/templates.js"></script>
+  <!-- MAIN -->
+  <script src="js/models/entry.model.js"></script>
+  <script src="js/collections/entry.collection.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

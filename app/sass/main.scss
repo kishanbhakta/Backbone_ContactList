@@ -1,0 +1,236 @@
+//General styling
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #656A75;
+  margin: 0;
+  // font-size: 1.8rem;
+}
+
+.container {
+  text-align: center;
+  margin-top: 25px;
+}
+
+
+// Input form styling
+
+.inputForm {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding: 15px 0;
+  color: #005E7F;
+  background-color: #565D6B;
+  border: 1px solid #00527F;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 5px 5px 10px black;
+  #addEntry {
+    padding:15px;
+  }
+}
+
+.input {
+  height: 30px;
+  width: 75%;
+  display: block;
+  margin: 5px auto;
+  border: 1px solid #00527F;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.submitBtn {
+  margin-top: 10px;
+  height: 30px;
+  width: 120px;
+  font-size: 13px;
+  padding: 0;
+  background-color: #15213D;
+}
+
+.editBtn {
+  margin-top: 10px;
+  height: 30px;
+  width: 120px;
+  font-size: 13px;
+  padding: 0;
+  background-color: #15213D;
+  visibility: hidden;
+}
+
+
+// Address book entry styling
+
+.entry {
+  list-style-type: none;
+  background-color: #9198A7;
+  color: #15213D;
+  border: 1px solid #00527F;
+  border-radius: 5px;
+  width: 50%;
+  height: 200px;
+  margin: 30px auto;
+  box-shadow: 5px 5px 10px black;
+
+}
+
+.entryHeader {
+  width: 50%;
+  height: 80%;
+  padding-left: 25px;
+  padding-top: 15px;
+  margin-top: 12px;
+  border-right: 1px #005E7F solid;
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+
+.name {
+  font-size: 32px;
+  padding: 5px;
+}
+
+.infoList {
+  width: 45%;
+  list-style-type: none;
+  margin-top: 13px;
+  // padding-left: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+.icon {
+  display: inline-block;
+  width: 10%;
+  margin-bottom: 7px;
+}
+
+.info {
+  display: inline-block;
+  width: 90%;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+/////////////////////
+// Entry option menu//
+//////////////////////
+
+
+  //Menu drop down on hover
+
+.fa-cog {
+  color: #005E7F;
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.menu {
+  width: 5%;
+  height: 28px;
+  overflow: hidden;
+  display: inline-block;
+  float: right;
+  text-align: right;
+  padding-top: 30px;
+  padding-right: 10px;
+  position: relative;
+  border-left: #005E7F solid 1px;
+}
+
+.menuhover {
+  height: 85px;
+  transition: all 500ms ease;
+}
+
+.fa-pencil {
+  color: #005E7F;
+  display: block;
+  padding-right: 3px;
+  margin-top: 7px;
+  float: right;
+
+}
+
+.fa-trash-o {
+  color: #005E7F;
+  display: block;
+  padding-right: 4px;
+  margin-top: 10px;
+  float: right;
+}
+
+.options {
+  margin-left: 3px;
+}
+
+.options:hover {
+  border: 1px solid #00527F;
+}
+
+
+// Highlights contact being edited
+
+.editingInfo {
+  background-color: #FDD6D6;
+}
+
+.editingBtn {
+  visibility: hidden;
+}
+
+.addEdit {
+  visibility: visible;
+}
+
+////////////////////
+////// Header //////
+////////////////////
+
+.main-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 6rem;
+  color: white;
+  background: #86888D;
+  line-height: 6rem;
+  transform: translateY(0);
+  transform: translate3d(0,0,0);
+  transition: .25s transform;
+  backface-visibility: hidden;
+}
+
+.heads-up {
+  transform: translateY(-6rem);
+  transform: translate3d(0,-6rem,0);
+}
+
+.main-header h1 {
+  float: left;
+  font-size: 1.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main {
+  padding: 10rem 6rem;
+  background: #EEE;
+}
+
+img{
+  margin-left: 125px;
+}
