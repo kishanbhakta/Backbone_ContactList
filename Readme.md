@@ -1,7 +1,17 @@
-## Welcome to My Repo
+## Overview
 
-> I am your Readme.md file, you should probably update me.
+This is a simple contact list I have built using BackboneJS.
 
+### Syntax
+
+
+**Divshot protoype link**: http://development.tiy-backbonecontactlist.divshot.io
+
+**Link to MongoDB API**: http://tiy-515.herokuapp.com/collections/kishan-contact/
+
+**The following deserve thanks**:
+
+Foundation.css, Backbone.js, jQuery, Underscore.js, MongoDB, HEROKU, and Sass.
 
 ## Usage
 
